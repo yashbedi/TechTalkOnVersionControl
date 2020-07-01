@@ -14,6 +14,7 @@
 		31BC67C924ACA02C0044CC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BC67C824ACA02C0044CC70 /* Assets.xcassets */; };
 		31BC67CC24ACA02C0044CC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BC67CA24ACA02C0044CC70 /* LaunchScreen.storyboard */; };
 		31BC67D724ACA02C0044CC70 /* TestingProjForTechTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC67D624ACA02C0044CC70 /* TestingProjForTechTalkTests.swift */; };
+		31BC67E424ACA5070044CC70 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BC67E324ACA5070044CC70 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		31BC67D224ACA02C0044CC70 /* TestingProjForTechTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingProjForTechTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BC67D624ACA02C0044CC70 /* TestingProjForTechTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingProjForTechTalkTests.swift; sourceTree = "<group>"; };
 		31BC67D824ACA02C0044CC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BC67E324ACA5070044CC70 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				31BC67BF24ACA0290044CC70 /* AppDelegate.swift */,
 				31BC67C124ACA0290044CC70 /* SceneDelegate.swift */,
+				31BC67E324ACA5070044CC70 /* Constants.swift */,
 				31BC67C324ACA0290044CC70 /* ViewController.swift */,
 				31BC67C524ACA0290044CC70 /* Main.storyboard */,
 				31BC67C824ACA02C0044CC70 /* Assets.xcassets */,
@@ -203,6 +206,7 @@
 				31BC67C424ACA0290044CC70 /* ViewController.swift in Sources */,
 				31BC67C024ACA0290044CC70 /* AppDelegate.swift in Sources */,
 				31BC67C224ACA0290044CC70 /* SceneDelegate.swift in Sources */,
+				31BC67E424ACA5070044CC70 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
