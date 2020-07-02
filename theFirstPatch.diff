@@ -1,0 +1,13 @@
+diff --git a/TestingProjForTechTalk/Constants.swift b/TestingProjForTechTalk/Constants.swift
+index 145638d..c84205d 100644
+--- a/TestingProjForTechTalk/Constants.swift
++++ b/TestingProjForTechTalk/Constants.swift
+@@ -30,6 +30,7 @@ struct Constants {
+         return UIDevice.current.name.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlHostAllowed) ?? ""
+     }
+     func sendInfoParams() -> String{
+-        return "?version=\(getVersion())&client=\(kClient)&deviceIdentifier=\(deviceModel)=\(kManufacturer)&deviceName=\(getDeviceName())&osVersion=\(getOSVersion())"
++        return "infoParamsRandom"
+     }
+ }
++//?version=\(getVersion())&client=\(kClient)&deviceIdentifier=\(deviceModel)=\(kManufacturer)&deviceName=\(getDeviceName())&osVersion=\(getOSVersion())
